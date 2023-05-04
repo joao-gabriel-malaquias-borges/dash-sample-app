@@ -1,6 +1,5 @@
 import pandas as pd
-from dash import Dash, dcc, html
-from dash.dependencies import Input,Output
+from dash import Dash, Input, Output, dcc, html
 
 data = (
 pd.read_csv("avocado.csv")
